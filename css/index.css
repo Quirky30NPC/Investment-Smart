@@ -1,6 +1,8 @@
-body{
+html, body{
   margin: 0 auto;
   height: 100%;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  scroll-behavior: smooth;
 }
 
 .top {
@@ -30,4 +32,149 @@ body{
 header {
   width: 100%;
   background-color: white;
+}
+.logo {
+  padding: 10px 25px;
+}
+.intro {
+  background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/skyscraper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 400px;
+  text-align: center;
+  padding-top: 150px;
+  color:white;
+
+}
+.intro p {
+  font-size: 20px;
+}
+.intro h1 {
+  font-size: 50px;
+}
+#introbutton {
+  font-size: 20px;
+  padding: 15px;
+  width: 200px;
+  border: 2px solid #CE9510;
+  background: #CE9510;
+  color: white;
+}
+.grid-container {
+  display: grid;
+  grid-column-gap: 20px;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  border: 1px solid #CDCDCD;
+  padding: 20px;
+  Font-size: 20px;
+  text-align: center;
+  width: 250px;
+}
+hr {
+  width: 50px;
+  border: 0;
+  border-top: 1px solid #CE9510;
+}
+.services h2 {
+  text-align: center;
+  font-size: 40px;
+}
+.grid-container p {
+  color: #CDCDCD;
+}
+#missionimage {
+  width: 30%;
+}
+.gridcontainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 20px;
+}
+.Mission {
+  background: #F2F3F8;
+  padding: 20px 20px 20px 100px;
+  width: 100%;
+}
+.Benefits {
+  background:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../images/data.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 20px;
+}
+#benefitslist {
+  list-style: none;
+}
+#benefitbutton {
+  font-size: 20px;
+  padding: 15px;
+  width: 300px;
+  border: 2px solid #CE9510;
+  background: #CE9510;
+  color: white;
+}
+
+.gridcontainer-go {
+  color: white;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 20px;
+  /* padding: 20px 20px 20px 20px; */
+}
+
+iframe {
+  border: 10px double lightgrey;
+  /* width: 25.5%; */
+
+}
+
+#Together {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#clientchoose {
+  font-size: 30px;
+}
+
+.clients{
+  background: #050522;
+  text-align: center;
+  width: 100%;
+  font-size: 10px;
+  padding: 20px 20px 80px 30px;
+}
+
+.together {
+  color: black;
+  padding: 40px;
+}
+h5 {
+  font-size: 20px;
+}
+
+/* .gridcontainer-go {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 20px;
+} */
+/* .together {
+  background: #F2F3F8;
+  padding: 20px 20px 20px 200px;
+  width: 100%;
+
+}
+.clients {
+  background: #050522;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  /* padding: 13rem; */
+
+
 }
